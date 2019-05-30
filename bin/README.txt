@@ -1,4 +1,4 @@
-olmod 0.2.1 - Overload mod
+olmod 0.2.2 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
@@ -55,6 +55,12 @@ What does it do
 - Adds option to enable console with ` key
 
 - Adds console commands: xp, reload_missions, mipmap_bias, ui_color
+
+- Allows custom music in custom levels
+
+- Allows spawn data for custom MP levels
+
+- Adds Internet match option with built in olproxy
 
 How does it work
 ----------------
