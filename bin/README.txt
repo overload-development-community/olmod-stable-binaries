@@ -1,4 +1,4 @@
-olmod 0.2.2 - Overload mod
+olmod 0.2.3 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
@@ -61,6 +61,12 @@ What does it do
 - Allows spawn data for custom MP levels
 
 - Adds Internet match option with built in olproxy
+
+- Adds -frametime command line option
+
+- Adds custom mod loading, add mod-xxx.dll assembly to olmod directory
+
+- Sorts MP level list (by Tobias)
 
 How does it work
 ----------------
