@@ -1,4 +1,4 @@
-olmod 0.2.3 - Overload mod
+olmod 0.2.4 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
@@ -67,6 +67,8 @@ What does it do
 - Adds custom mod loading, add mod-xxx.dll assembly to olmod directory
 
 - Sorts MP level list (by Tobias)
+
+- Automatically downloads MP levels from overloadmaps.com
 
 How does it work
 ----------------
