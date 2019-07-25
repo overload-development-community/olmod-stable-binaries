@@ -1,4 +1,4 @@
-olmod 0.2.4a - Overload mod
+olmod 0.2.5 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
@@ -69,6 +69,10 @@ What does it do
 - Sorts MP level list (by Tobias)
 
 - Automatically downloads MP levels from overloadmaps.com
+
+- Adds MP level select screen
+
+- Disables weapon speed/lifetime randomization in LAN/Internet MP
 
 How does it work
 ----------------
