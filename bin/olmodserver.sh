@@ -1,3 +1,2 @@
 #!/bin/sh
-exec ./olmod.sh -nographics -batchmode "$@"
-
+exec `dirname $0`/olmod.sh -nographics -batchmode "$@"
