@@ -1,4 +1,4 @@
-olmod 0.2.7 - Overload mod
+olmod 0.2.7.1 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
@@ -78,6 +78,10 @@ What does it do
 - Adds support for some missing textures (crystal) and props (fans, monitors) in custom levels
 
 - MP server writes kill/damage log and optionally send it to tracker
+
+- Always makes all MP loadouts available and uses Impulse instead of Reflex for Warrior
+
+- Fixes missing doors and teleporters in MP levels
 
 How does it work
 ----------------
