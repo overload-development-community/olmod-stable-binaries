@@ -1,4 +1,4 @@
-olmod 0.2.7.2 - Overload mod
+olmod 0.2.8 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
@@ -82,6 +82,12 @@ What does it do
 - Always makes all MP loadouts available and uses Impulse instead of Reflex for Warrior
 
 - Fixes missing doors and teleporters in MP levels
+
+- Less strict item pickup for inverted segment MP levels, originally by terminal
+
+- Adds MP presets by Tobias
+
+- Allows more simultaneous sounds for large MP matches
 
 How does it work
 ----------------
