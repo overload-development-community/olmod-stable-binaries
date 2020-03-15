@@ -1,3 +1,7 @@
+v0.2.8.1 - 2020-03-08
+- Added O1L match preset
+- Preserve LD_PRELOAD on linux by derhass
+
 v0.2.8 - 2020-02-16
 
 - Added MP Presets by Tobias
