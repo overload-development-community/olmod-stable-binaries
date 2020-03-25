@@ -1,4 +1,13 @@
+v0.2.8.2 - 2020-03-25
+
+- Added fire macro/mouse wheel prevention by roncli
+- Added sudden death option for MB/CTF matches by roncli
+- CTF: Score on touching flag instead of goal
+- CTF: Fix scoring when flag is returned
+- CTF: Disable flag pickup when dying
+
 v0.2.8.1 - 2020-03-08
+
 - Added O1L match preset
 - Preserve LD_PRELOAD on linux by derhass
 
