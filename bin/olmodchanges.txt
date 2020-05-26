@@ -1,3 +1,24 @@
+v0.2.9.2 - 2020-05-26
+
+- Fix partial team mode for race mode
+
+v0.2.9.1 - 2020-05-23
+
+- Better support for no lap limit
+- Changed lap limit setting increments
+- Fixed scoreboard sorting
+- Default to instant respawn for race mode
+- Fixed bumping sound after leaving match
+- Fixed 3 or more team matches
+
+v0.2.9 - 2020-05-21
+
+- Added Race mode by Tobias
+- Support for mac
+- Show current team score when joining in progress match
+- Reset boost heat on respawn
+- Mod loading speedup
+
 v0.2.8.2 - 2020-03-25
 
 - Added fire macro/mouse wheel prevention by roncli
