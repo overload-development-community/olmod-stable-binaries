@@ -1,3 +1,20 @@
+v0.3.0.1 - 2020-06-17
+
+- Fixes for server browser
+
+v0.3.0 - 2020-06-17
+
+- Added server browser by Tobias
+- Fix boost reset on spawn fix
+
+v0.2.9.4 - 2020-05-31
+
+- Fixes for upcoming Overload version
+
+v0.2.9.3 - 2020-05-30
+
+- Support for upcoming Overload version
+
 v0.2.9.2 - 2020-05-26
 
 - Fix partial team mode for race mode

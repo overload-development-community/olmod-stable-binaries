@@ -1,4 +1,4 @@
-olmod 0.2.9.2 - Overload mod
+olmod 0.3.0.1 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
