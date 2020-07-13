@@ -1,3 +1,12 @@
+v0.3.1.1 - 2020-07-06
+
+- Fixed creeper sync server controlled explosions
+
+v0.3.1 - 2020-07-06
+
+- Add creeper sync support
+- Join-In-Progress: Better support for joining while match starts/ends
+
 v0.3.0.1 - 2020-06-17
 
 - Fixes for server browser
