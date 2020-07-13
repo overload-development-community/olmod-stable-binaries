@@ -1,3 +1,8 @@
+v0.3.1.2 - 2020-07-13
+
+- Add view player option to observer mode, by roncli
+- Fix for observer joining in progress match
+
 v0.3.1.1 - 2020-07-06
 
 - Fixed creeper sync server controlled explosions
