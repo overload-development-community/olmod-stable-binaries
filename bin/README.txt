@@ -1,4 +1,4 @@
-olmod 0.3.1.3 - Overload mod
+olmod 0.3.2-beta.1 - Overload mod
 Community mods for Overload
 https://github.com/arbruijn/olmod
 
@@ -19,7 +19,6 @@ How to run
   On mac you might get a warning about `olmod.dylib`, you can add an exception in
   System Preferences, Security & Privacy, General.
 
-
 - Use `olmodserver.bat` / `olmodserver.sh` (linux) to start a LAN server,
   use `olmodserverinet.bat` / `olmodserverinet.sh` (linux) to start an
   internet server. For the internet server you need to open UDP port range
@@ -27,6 +26,10 @@ How to run
 
 What does it do
 ---------------
+
+- Replaces default networking model with a sniper packets style, resulting in more consistent network play.
+
+- Better synchronizes energy, ammo, weapon choice, missile counts, and devastator firing/triggering when using sniper packets.
 
 - Allows access to the unfinished Monsterball multiplayer mode (with tweaks
   by terminal).
