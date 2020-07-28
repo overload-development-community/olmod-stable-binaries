@@ -1,6 +1,6 @@
 #!/bin/sh
 export OLMODDIR=$(dirname "$0")
-OLDIR=${OLMODDDIR}
+OLDIR=.
 for arg; do
   if [ "$next_dir" = "0" ]; then OLDIR="$arg"; fi
   [ "$arg" = "-gamedir" ]; next_dir="$?"
