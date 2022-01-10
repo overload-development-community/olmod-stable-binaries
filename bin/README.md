@@ -1,12 +1,13 @@
-olmod 0.5.4 - Overload mod
-Community mods for Overload
-https://github.com/overload-development-community/olmod
+## olmod 0.5.4 - Overload mod
 
-Overload is a registered trademark of Revival Productions, LLC.  This is an
-unaffiliated, unsupported tool.  Use at your own risk.
+**Community mods for Overload**
 
-How to run
-----------
+[Overload](https://playoverload.com) is a registered trademark of [Revival Productions, LLC](https://www.revivalprod.com).
+This is an unaffiliated, unsupported tool. Use at your own risk.
+
+#### How to run
+
+- Download the latest release from [olmod.overloadmaps.com](https://olmod.overloadmaps.com)
 
 - Extract olmod in the Overload main directory
   (where `Overload.exe` / `Overload.x86_64` / `Overload.app` is also located).
@@ -24,8 +25,7 @@ How to run
   internet server. For the internet server you need to open UDP port range
   7000-8001
 
-What does it do
----------------
+#### What does it do
 
 - Allows access to the unfinished Monsterball multiplayer mode (with tweaks by terminal). The Monsterball multiplayer mode only works when both server and clients run olmod.
 
@@ -169,11 +169,59 @@ What does it do
 
 - Option to have bigger and more colorful enemy names in anarchy, by luponix
 
-How does it work
-----------------
+#### How to build
 
-The regular Overload.exe just runs UnityMain from UnityPlayer.dll.  The
-replacement olmod.exe also runs UnityMain, but intercepts calls from Unity
-to the mono C# engine to also load GameMod.dll.  The file GameMod.dll
-contains a C# class that uses Harmony to modify the game scripting code in
-memory.
+##### Windows
+
+- Open solution in Visual Studio 2017 or 2019
+
+- In the GameMod project, find the file Directory.Build.targets and replace the OverloadDir variable with the path to Overload 1.1 on your machine.
+
+- Run
+
+##### Linux
+
+Build the shared object library:
+
+```
+$ cd linux
+$ make olmod.so
+```
+
+Build the GameMod.dll file containing the game logic (requires the `mcs` compiler, usually found in packages `mono-dev` or `mono-mcs`):
+
+```
+$ cd linux
+$ export OLPATH=/path/to/your/Overload/installation
+$ make GameMod.dll
+```
+
+Please note that you will need the Mono C# compiler for this to work.
+
+##### Mac OS
+
+Build the dynamic library:
+
+```
+$ cd linux
+$ make olmod.dylib
+```
+
+Build the GameMod.dll file containing the game logic (untested):
+
+```
+$ cd linux
+$ export OLPATH=/path/to/your/Overload/installation
+$ make GameMod.dll
+```
+
+Please note that you will need the Mono C# compiler for this to work.
+
+
+#### How does it work
+
+The regular `Overload.exe` just runs `UnityMain` from `UnityPlayer.dll`.
+The replacement `olmod.exe` also runs `UnityMain`, but intercepts calls from Unity to the mono C# engine
+to also load `GameMod.dll`. The file `GameMod.dll` contains a C# class that
+uses [Harmony](https://github.com/pardeike/Harmony) to modify the game
+scripting code in memory.
